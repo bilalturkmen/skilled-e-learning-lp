@@ -267,7 +267,6 @@ body {
 
   .hero__content h1 {
     font-size: var(--fs-hl);
-    font-weight: var(--fw-800);
   }
 
   .hero__content p {
@@ -286,7 +285,6 @@ body {
 
   .main--section {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
     column-gap: 0.625rem;
     row-gap: 3.5rem;
     padding-top: 2.55rem;
@@ -355,7 +353,6 @@ body {
 
   .main--section {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     column-gap: 1.875rem;
     row-gap: 5rem;
     padding-top: 5.3rem;
@@ -486,21 +483,5 @@ button:focus {
     height: 3.5rem;
     font-size: var(--fs-m);
     line-height: 1rem;
-  }
-}
-
-.rise {
-  opacity: 0;
-  animation: rise 0.8s ease-in-out forwards;
-}
-
-@keyframes rise {
-  0% {
-    transform: translateY(2rem);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
   }
 }
