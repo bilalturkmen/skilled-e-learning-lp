@@ -14,7 +14,7 @@
 
 - Custom components created.
 - Responsive image positioning and retina display implemented.
-- Getting high rate from [PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fsuperlative-gelato-8c62b6.netlify.app%2F)
+- Getting high rate from [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-charming-moxie-25efc2-netlify-app/pln3pbt5nr?form_factor=mobile)
 
 ![](./public/screenshot.png)
 
