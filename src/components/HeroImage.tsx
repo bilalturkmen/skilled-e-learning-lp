@@ -16,13 +16,7 @@ const HeroImage = () => {
         srcSet={`${imgTablet} 1x, ${imgTablettwo} 2x`}
         media="(min-width: 768px) and (max-width: 1120px)"
       />
-      <img
-        src={imgMobil}
-        srcSet={`${imgMobil} 1x, ${imgMobiltwo} 2x`}
-        alt=""
-        width={435}
-        height={409}
-      />
+      <img src={imgMobil} srcSet={`${imgMobil} 1x, ${imgMobiltwo} 2x`} alt="" />
     </picture>
   );
 };
