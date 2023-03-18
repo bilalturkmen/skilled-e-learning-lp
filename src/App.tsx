@@ -9,7 +9,7 @@ import {
 function App() {
   return (
     <>
-      <header>
+      <header id="home">
         <div className="container">
           <nav className="header__nav">
             <LogoComp logoImg={"dark"} />

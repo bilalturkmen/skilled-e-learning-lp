@@ -7,7 +7,20 @@ const LogoComp = ({ logoImg }: any) => {
   } else {
     logoImg = logoLight;
   }
-  return <img src={logoImg} alt="Skilled Logo" />;
+
+  const handleClick = () => {
+    if (logoDark) {
+      (document.getElementById("courses") as HTMLAnchorElement).scrollIntoView({
+        behavior: "smooth",
+      });
+    } else {
+      (document.getElementById("home") as HTMLAnchorElement).scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  };
+
+  return <img src={logoImg} alt="Skilled Logo" onClick={handleClick} />;
 };
 
 export default LogoComp;

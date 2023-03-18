@@ -130,6 +130,13 @@ body {
 .footer--nav img {
   width: 5.45rem;
   height: auto;
+  transition: transform 0.4s ease;
+}
+
+.header__nav img:hover,
+.footer--nav img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 /* Hero Section */
@@ -479,9 +486,18 @@ button:focus {
   }
 }
 
-@media (min-width: 90.001em) {
-  .hero__img img {
-    top: -10rem;
-    right: -8rem;
+.rise {
+  opacity: 0;
+  animation: rise 0.8s ease-in-out forwards;
+}
+
+@keyframes rise {
+  0% {
+    transform: translateY(2rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
