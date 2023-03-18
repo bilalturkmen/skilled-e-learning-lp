@@ -3,7 +3,7 @@
   <h3>
     <a href="https://charming-moxie-25efc2.netlify.app/"> Live View </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/fylo-landing-page-with-typescript-Rp93QMMrMo"> Solution Page </a>
+    <a href="https://www.frontendmentor.io/solutions/skilled-elearning-lp-with-react-ts-uyDZ1GQV9W"> Solution Page </a>
   </h3>
 </div>
 <div>

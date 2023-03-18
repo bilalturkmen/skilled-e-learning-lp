@@ -8,7 +8,7 @@ import FooterAttribution from "./FooterAttribution";
 // metadata
 const footData = {
   fmUrl:
-    "https://www.frontendmentor.io/solutions/results-summary-component-with-react-js-oY58nHZGtW",
+    "https://www.frontendmentor.io/solutions/skilled-elearning-lp-with-react-ts-uyDZ1GQV9W",
   devUrl: "https://bilalturkmen.com",
 };
 
