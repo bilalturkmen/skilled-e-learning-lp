@@ -1,28 +1,34 @@
-//metadata
-import { footData } from ".";
+import data from "../data/footer-data.json";
+import { Key } from "react";
 
-const Attribution = ({ fmUrl = footData.fmUrl, devUrl = footData.devUrl }) => {
+const Attribution = () => {
   return (
     <div className="footer--attribution">
-      Challenge by{" "}
-      <a
-        href={fmUrl}
-        target="_blank"
-        aria-label="visit the challenge page"
-        rel="noreferrer noopener"
-      >
-        Frontend Mentor
-      </a>
-      . Coded by{" "}
-      <a
-        href={devUrl}
-        target="_blank"
-        aria-label="visit the coder's webpage"
-        rel="noreferrer noopener"
-      >
-        Bilal Türkmen
-      </a>
-      .
+      {data.map(
+        (
+          fd: {
+            beforeText: string;
+            url: string;
+            label: string;
+            fromName: string;
+          },
+          index: Key
+        ) => (
+          <>
+            {fd.beforeText}{" "}
+            <a
+              key={index}
+              href={fd.url}
+              target="_blank"
+              aria-label={fd.label}
+              rel="noreferrer noopener"
+            >
+              {fd.fromName}
+            </a>
+            .{" "}
+          </>
+        )
+      )}
     </div>
   );
 };
