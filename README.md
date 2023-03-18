@@ -13,8 +13,8 @@
 ## 👍 My Challenges:
 
 - Custom components created.
-- Responsive image position and retina display implemented.
-- [High rate PageSpeed Performance](https://pagespeed.web.dev/report?url=https%3A%2F%2Fsuperlative-gelato-8c62b6.netlify.app%2F)
+- Responsive image positioning and retina display implemented.
+- Getting high rate from [PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fsuperlative-gelato-8c62b6.netlify.app%2F)
 
 ![](./public/screenshot.png)
 
