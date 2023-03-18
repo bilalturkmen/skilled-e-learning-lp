@@ -9,16 +9,16 @@ const HeroImage = () => {
   return (
     <picture className="hero__img">
       <source
-        srcSet={`${imgDesk} 1046w 1x, ${imgDesktwo} 2x`}
+        srcSet={`${imgDesk} 1046w, ${imgDesktwo} 2x`}
         media="(min-width: 1120px)"
       />
       <source
-        srcSet={`${imgTablet} 695w 1x, ${imgTablettwo} 2x`}
+        srcSet={`${imgTablet} 695w, ${imgTablettwo} 2x`}
         media="(min-width: 768px) and (max-width: 1120px)"
       />
       <img
         src={imgMobil}
-        srcSet={`${imgMobil} 435w 1x, ${imgMobiltwo} 2x`}
+        srcSet={`${imgMobil} 435w, ${imgMobiltwo} 2x`}
         alt=""
       />
     </picture>
