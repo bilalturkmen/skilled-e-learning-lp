@@ -20,7 +20,15 @@ const LogoComp = ({ logoImg }: any) => {
     }
   };
 
-  return <img src={logoImg} alt="Skilled Logo" onClick={handleClick} />;
+  return (
+    <img
+      src={logoImg}
+      alt="Skilled Logo"
+      onClick={handleClick}
+      width={112}
+      height={29}
+    />
+  );
 };
 
 export default LogoComp;

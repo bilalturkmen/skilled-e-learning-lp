@@ -3,6 +3,7 @@
   font-style: normal;
   font-weight: 500;
   src: url(./assets/jakarta-500.woff2) format("woff2");
+  font-display: swap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
   font-style: normal;
   font-weight: 700;
   src: url(./assets/jakarta-700.woff2) format("woff2");
+  font-display: swap;
 }
 
 @font-face {
@@ -17,6 +19,7 @@
   font-style: normal;
   font-weight: 800;
   src: url(./assets/jakarta-800.woff2) format("woff2");
+  font-display: swap;
 }
 
 :root {
