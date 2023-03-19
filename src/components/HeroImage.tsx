@@ -18,7 +18,7 @@ const HeroImage = () => {
       />
       <source
         srcSet={`${imgMobil} 1x, ${imgMobiltwo} 2x`}
-        media="(max-width: 767px)"
+        media="(max-width: 768px)"
       />
       <img src={imgMobil} alt="" />
     </picture>
