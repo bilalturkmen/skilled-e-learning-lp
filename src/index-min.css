@@ -279,6 +279,8 @@ body {
   }
 
   .hero__img img {
+    width: 43.438rem;
+    height: auto;
     top: -11.8rem;
     left: -6.6rem;
   }
@@ -347,6 +349,8 @@ body {
   }
 
   .hero__img img {
+    width: 65.375rem;
+    height: auto;
     top: -15.7rem;
     left: -7.8rem;
   }
