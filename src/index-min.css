@@ -218,8 +218,7 @@ body {
 
 .main--card a {
   position: absolute;
-  bottom: 0;
-  padding-bottom: 2.1rem;
+  bottom: 2.1rem;
   font-size: var(--fs-m);
   font-weight: var(--fw-700);
   color: var(--clr-accent);
@@ -380,7 +379,7 @@ body {
   }
 
   .main--card a {
-    padding-bottom: 2.66rem;
+    bottom: 2.66rem;
   }
 
   .main--card:nth-child(1) {

@@ -7,8 +7,10 @@ const Card = () => {
         <div key={index} className="main--card">
           <img src={data.icon} alt="" />
           <h3>{data.title}</h3>
-          <p> {data.content} </p>
-          <a href="#">{data.link}</a>
+          <p>{data.content} </p>
+          <a href="#" aria-label="Go to course detail">
+            {data.link}
+          </a>
         </div>
       ))}
     </>
