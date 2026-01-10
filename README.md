@@ -20,8 +20,8 @@
 
 ## 🎉 Build With:
 
-- React + TypeScript
-- Semantic HTML5 markup
-- Css Grid and Flexbox
+- React JS + TypeScript
+- Semantic HTML markup
+- Flexbox and Grid CSS
 - Mobile-first workflow
 - CSS custom properties
