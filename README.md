@@ -1,7 +1,7 @@
 <h1>Skilled e-learning landing page</h1>
 <div>
   <h3>
-    <a href="https://charming-moxie-25efc2.netlify.app/"> Live View </a>
+    <a href="https://elearning-lp.netlify.app/"> Live View </a>
     <span> | </span>
     <a href="https://www.frontendmentor.io/solutions/skilled-elearning-lp-with-react-ts-uyDZ1GQV9W"> Solution Page </a>
   </h3>
@@ -14,14 +14,16 @@
 
 - Custom components created.
 - Responsive image positioning and retina display implemented.
-- Getting high rate from [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-charming-moxie-25efc2-netlify-app/pln3pbt5nr?form_factor=mobile)
 
 ![](./public/screenshot.png)
+
+- High score received from [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-elearning-lp-netlify-app/6fi39h0bcx?form_factor=mobile)
+  ![](./public/screenshot.png)
 
 ## 🎉 Build With:
 
 - React JS + TypeScript
-- Semantic HTML markup
-- Flexbox and Grid CSS
+- Semantic HTML5 markup
+- CSS Flexbox and Grid
 - Mobile-first workflow
-- CSS custom properties
+- Custom CSS properties
