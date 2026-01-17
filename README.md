@@ -18,7 +18,7 @@
 ![](./public/screenshot.png)
 
 - High score received from [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-elearning-lp-netlify-app/6fi39h0bcx?form_factor=mobile)
-  ![](./public/screenshot.png)
+  ![](./public/ps-screen.png)
 
 ## 🎉 Build With:
 
